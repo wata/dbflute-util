@@ -22,6 +22,14 @@ var commandInit = cli.Command{
 	Action: doInit,
 }
 
+var commandInit = cli.Command{
+	Name:  "upgrade",
+	Usage: "",
+	Description: `
+`,
+	Action: doUpgrade,
+}
+
 var commandDoc = cli.Command{
 	Name:  "doc",
 	Usage: "",
@@ -63,6 +71,9 @@ func assert(err error) {
 func doInit(c *cli.Context) {
 }
 
+func doUpgrade(c *cli.Context) {
+}
+
 func doDoc(c *cli.Context) {
 }
 
@@ -71,5 +82,3 @@ func doLoadDataReverse(c *cli.Context) {
 
 func doReplaceSchema(c *cli.Context) {
 }
-
-
