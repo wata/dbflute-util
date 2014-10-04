@@ -3,7 +3,7 @@ dbflute-util
 
 ## Description
 
-DBFluteの便利機能をjava以外の開発環境（Ruby, Python, Perl, etc...）でも手軽に使いたい。  
+[DBFlute](http://dbflute.seasar.org/)の便利機能をjava（.NET）以外の開発環境（Ruby, Python, Perl, etc...）でもカジュアルに使いたい。  
 具体的には以下の3つの機能をサポートする。
 
 * `doc` - ドキュメント生成（テーブル定義・DB変更履歴）
@@ -13,7 +13,11 @@ DBFluteの便利機能をjava以外の開発環境（Ruby, Python, Perl, etc...�
 ## Usage
 
 ```bash
-$ dbflute-util setup
+$ dbflute-util init
+```
+
+```bash
+$ dbflute-util upgrade
 ```
 
 ```bash
@@ -49,3 +53,20 @@ $ go get -d github.com/wata/dbflute-util
 ## Author
 
 [wata](https://github.com/wata)
+
+## SEE ALSO
+
+About DBFlute
+* HP (http://dbflute.seasar.org/)
+* Github (https://github.com/seasarorg/dbflute)
+
+## License
+
+### dbflute-util
+itself
+
+### DBFlute
+dbflute-util uses DBFlute code
+```
+(The Apache Software License, Version 2.0)
+```
